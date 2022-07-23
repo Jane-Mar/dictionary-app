@@ -1,9 +1,14 @@
 import "./App.css";
+import Dictionary from "./Dictionary";
+import Footer from "./Footer";
 
 function App() {
   return (
     <div className="App">
-      <button className="btn btn-primary">Search</button>
+      <div className="container">
+        <Dictionary />
+        <Footer />
+      </div>
     </div>
   );
 }

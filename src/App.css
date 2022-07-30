@@ -30,9 +30,20 @@ footer a {
   padding: 15px 40px;
   border-radius: 15px;
   border: 2px solid #7c73e6;
+  outline: none;
+  font-size: 20px;
 }
 
-@media (max-width: 500px) {
+.searchForm:hover {
+  background: #7c73e6;
+  color: white;
+}
+
+form {
+  border: none;
+}
+
+@media (max-width: 800px) {
   .App {
     width: 100%;
     margin: 70px auto;

@@ -1,0 +1,44 @@
+.Results h2 {
+  text-transform: capitalize;
+  font-weight: 800;
+}
+
+.Phonetics {
+  font-size: 15px;
+  margin: 20px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.Phonetics audio {
+  width: 100px;
+  margin-right: 20px;
+}
+
+.Meaning dt {
+  font-size: 20px;
+  color: #7c73e6;
+}
+
+.Meaning dd {
+  margin-left: 50px;
+}
+
+.Meaning i {
+  font-size: 15px;
+}
+
+.Synonyms {
+  list-style: none;
+  padding: 0;
+  margin-left: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Synonyms li {
+  padding-right: 20px;
+  font-size: 12px;
+  color: #7c73e6;
+  font-weight: bold;
+}

@@ -1,3 +1,48 @@
 .App {
+  background-color: #fafafa;
+  width: 70%;
+  margin: 100px auto;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+header {
   text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 70px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #7c73e6;
+}
+
+.searchForm {
+  display: block;
+  margin: 0 auto 40px;
+  width: 50%;
+  padding: 15px 40px;
+  border-radius: 15px;
+  border: 2px solid #7c73e6;
+}
+
+@media (max-width: 500px) {
+  .App {
+    width: 100%;
+    margin: 70px auto;
+  }
+
+  header {
+    font-size: 50px;
+  }
+
+  .searchForm {
+    width: 90%;
+  }
 }
